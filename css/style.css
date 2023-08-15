@@ -1,0 +1,82 @@
+#profile-img {
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 10%;
+    border-radius: 50%;
+    border-color: 1px solid grey;
+    float: left;
+}
+
+#profile-img-about {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 10%;
+    border-radius: 50%;
+    border-color: 1px solid grey;
+    float: left;
+}
+
+#skills {
+    padding-top: 4em;
+}
+
+#work {
+    padding-top: 2.5em;
+}
+
+#about {
+    padding-top: 2.5em;
+}
+
+#contact {
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+}
+
+.language__img {
+width: 100%;
+max-width: 100px;
+transition: all 300ms;
+}
+
+.language:hover .language__img {
+filter: brightness(80%);
+opacity: 0.86;
+transform: scale(0.9);
+}
+
+.language {
+width: 25%;
+display: flex;
+justify-content: center;
+position: relative;
+}
+
+.language__img--wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 25px 16px;
+}
+
+.language__list {
+display: flex;
+justify-content: center;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.language__name {
+position: absolute;
+bottom: 0;
+transform: scale(0);
+transition: all 300ms;
+font-size: 20px;
+opacity: 0;
+}
+.language:hover .language__name {
+transform: scale(1);
+opacity: 1;
+}
